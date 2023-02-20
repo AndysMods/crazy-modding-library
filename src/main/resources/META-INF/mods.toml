@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/AndysMods/crazy-modding-library/issues"
+
+[[mods]]
+    modId="crazymoddinglibrary"
+    version="${file.jarVersion}}"
+    displayName="Crazy Modding Library"
+    logoFile="logo.png"
+    credits="Thanks for this example mod goes to Java"
+    authors="Andy608"
+    description='''The Crazy Modding Library provides useful functionality that many mods normally tend to need, so they don't need to rewrite code.'''
+
+[[dependencies.crazymoddinglibrary]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.crazymoddinglibrary]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
