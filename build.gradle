@@ -6,7 +6,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = "${minecraft_version}-${mod_version}"
+version = "${minecraft_version}-forge-${mod_version}"
 group = "com.${mod_vendor}.${mod_name}"
 archivesBaseName = "${mod_name}"
 
