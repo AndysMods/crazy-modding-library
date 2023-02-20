@@ -8,7 +8,7 @@ issueTrackerURL="https://github.com/AndysMods/crazy-modding-library/issues"
     version="${file.jarVersion}}"
     displayName="Crazy Modding Library"
     logoFile="logo.png"
-    credits="Thanks for this example mod goes to Java"
+    credits=""
     authors="Andy608"
     description='''The Crazy Modding Library provides useful functionality that many mods normally tend to need, so they don't need to rewrite code.'''
 
