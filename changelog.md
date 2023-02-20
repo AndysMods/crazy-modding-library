@@ -3,7 +3,9 @@ https://www.markdownguide.org/basic-syntax/
 https://shields.io/category/other
 -->
 
-# Crazy Modding Library - Change Log
+![Crazy Modding Library](/src/main/resources/logo.png)
+
+# Changelog
 
 ![](https://img.shields.io/badge/Mod%20Version-1.0.0-informational)
 ![](https://img.shields.io/badge/Supported%20Versions-grey.svg)

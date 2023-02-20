@@ -1,4 +1,9 @@
-# Crazy Modding Library
+<!---
+https://www.markdownguide.org/basic-syntax/
+https://shields.io/category/other
+-->
+
+![Crazy Modding Library](/src/main/resources/logo.png)
 
 [![](https://img.shields.io/badge/Mod%20Version-1.0.0-green.svg)](https://github.com/AndysMods/crazy-modding-library)
 [![](https://img.shields.io/badge/Changelog-informational.svg)](https://github.com/AndysMods/crazy-modding-library/blob/main/changelog.md)
