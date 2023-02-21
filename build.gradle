@@ -30,7 +30,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', "${mod_artifact_id}"
+            property 'forge.enabledGameTestNamespaces', "${mod_id}"
 
             mods {
                 crazymoddinglibrary {
@@ -46,7 +46,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', "${mod_artifact_id}"
+            property 'forge.enabledGameTestNamespaces', "${mod_id}"
 
             mods {
                 crazymoddinglibrary {
@@ -62,7 +62,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', "${mod_artifact_id}"
+            property 'forge.enabledGameTestNamespaces', "${mod_id}"
 
             mods {
                 crazymoddinglibrary {
@@ -79,7 +79,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', "${mod_artifact_id}", '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', "${mod_id}", '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 crazymoddinglibrary {
@@ -132,7 +132,7 @@ def getManifestAttributes(String modName) {
 }
 
 jar {
-    manifest.attributes(getManifestAttributes("${mod_artifact_id}"))
+    manifest.attributes(getManifestAttributes("${mod_readable_name}"))
 }
 
 // Example configuration to allow publishing using the maven-publish plugin

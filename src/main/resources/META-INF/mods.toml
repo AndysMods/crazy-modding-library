@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/AndysMods/crazy-modding-library/issues"
 
 [[mods]]
     modId="crazymoddinglibrary"
-    version="${file.jarVersion}}"
+    version="${file.jarVersion}"
     displayName="Crazy Modding Library"
     logoFile="logo.png"
     credits=""
