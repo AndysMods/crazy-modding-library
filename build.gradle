@@ -7,8 +7,8 @@ plugins {
 }
 
 group = "com.${mod_vendor}.${mod_artifact_id}"
-archivesBaseName = "${mod_artifact_id}"
-version = "${minecraft_version}-forge-${mod_version}"
+archivesBaseName = "${mod_artifact_id}-${minecraft_version}-forge"
+version = "${mod_version}"
 
 println "Java: ${System.getProperty 'java.version'}, " +
         "JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), " +
@@ -107,16 +107,6 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
-    // Real mod deobf dependency examples - these get remapped to your current mappings
-    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
-
-    // Examples using mod jars from ./libs
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-
-    // For more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
 }
 
 def getManifestAttributes(String modName) {
